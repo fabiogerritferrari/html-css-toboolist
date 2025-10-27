@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+/* header */
+
+header{
+    height: 100px;
+}
+
+h1{
+    display: inline;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#logo{
+    height: 70px;
+    vertical-align: middle;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
