@@ -1,10 +1,11 @@
+/*! reset */
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
 
-/* Utils */
+/** Utils */
 
 .container{
     max-width: 65%;
@@ -31,7 +32,8 @@ h1{
     margin-bottom: 30px;
 }
 
-/* main */
+/*? main */
+
 button{
     padding: 10px 20px;
     border-radius: 10px;
@@ -46,6 +48,5 @@ button{
 }
 
 .add-section{
-    border:1px solid #d8d8d8;
-    color: #d8d8d8;
+   opacity: 20%;
 }
