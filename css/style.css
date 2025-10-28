@@ -45,14 +45,9 @@ button{
     border: 1px solid;
 }
 
-.add-task{
-    background-color: #3eaff0;
-    color: white;
-    border: transparent;
-}
 
 .add-section{
-   opacity: 20%;
+    opacity: 20%;
 }
 
 ul{
@@ -61,15 +56,17 @@ ul{
 
 h2{
     margin-top: 40px;
+    font-weight: 900;
 }
 
 .symbol{
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 100%;
     padding:2px;
     margin-right: 8px;
     font-size: 0.6rem;
     text-align: center;
+    font-weight:bolder;
 }
 
 .cross{
@@ -80,4 +77,47 @@ h2{
 .check{
     color: #a0cdc0;
     border-color:#a0cdc0 ;
+}
+
+li{
+    margin-bottom: 25px;
+    margin-top:6px;
+}
+
+/* section */
+
+.section{
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+}
+
+/*colori */
+
+.bg-blue{
+    background-color: #3eaff0;
+    color: white;
+    border: transparent;
+}
+
+.bg-purple{
+    background-color: #9a74e5;
+}
+
+.bg-cyan{
+    background-color: #65bfa7;
+}
+
+.bg-orange{
+    background-color: #f1a12c;
+}
+
+.bg-pink{
+    background-color: #d561a0;
+}
+
+.bg-green{
+    background-color: #afc72a;
 }
