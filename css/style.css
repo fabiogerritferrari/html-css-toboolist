@@ -34,6 +34,10 @@ h1{
 
 /*? main */
 
+main{
+    font-size: 1.2rem;
+}
+
 button{
     padding: 10px 20px;
     border-radius: 10px;
@@ -49,4 +53,31 @@ button{
 
 .add-section{
    opacity: 20%;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+.symbol{
+    border: 1px solid;
+    border-radius: 100%;
+    padding:2px;
+    margin-right: 8px;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.cross{
+    color:#e1bab7;
+    border-color: #e1bab7;
+}
+
+.check{
+    color: #a0cdc0;
+    border-color:#a0cdc0 ;
 }
